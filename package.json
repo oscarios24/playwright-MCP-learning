@@ -1,0 +1,32 @@
+{
+  "name": "playwright-mcps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oscarios24/playwright-MCP-learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/oscarios24/playwright-MCP-learning/issues"
+  },
+  "homepage": "https://github.com/oscarios24/playwright-MCP-learning#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.1"
+  },
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": ["@playwright/mcp@latest", "--isolated"]
+    }
+  }
+
+  
+  
+}
